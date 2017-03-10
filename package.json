@@ -1,0 +1,33 @@
+{
+  "name": "grunt-aws-cleanupapigateway",
+  "version": "1.0.0",
+  "description": "Easily remove obsolete API Gateway resources and maintain a neat account.",
+  "keywords": [
+    "grunt",
+    "AWS",
+    "API",
+    "gateway",
+    "apigateway",
+    "api-gateway",
+    "clean",
+    "cleanup",
+    "janitor",
+    "REST",
+    "stage",
+    "stages",
+    "deployment",
+    "deployments"
+  ],
+  "author": {
+    "name": "Igor Sowinski",
+    "email": "igorsowinski.mail@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Igrom/grunt-aws-cleanupapigateway.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.26.0"
+  }
+}
