@@ -1,6 +1,6 @@
 {
   "name": "grunt-aws-cleanupapigateway",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easily remove obsolete API Gateway resources and maintain a neat and tidy AWS account.",
   "keywords": [
     "grunt",

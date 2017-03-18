@@ -58,7 +58,7 @@ After several such rounds, the REST API will accumulate a number of stages and d
 In order to automate cleanups, one could transform a list of repository branches into a list of valid stages, invoke a grunt task with it passed as a command-line parameter and configure the "cleanup_api" task with it.
 
 ```bash
-STAGES=`git branch -a | grep remote | sed 's/ //g' | sed 's/->.*//g' | sed 's/^.*\///g'`
+STAGES=`git branch -a | grep remote | sed 's/ //g' | sed 's/->.*//g' | sed 's/^.*\///g' | xargs`
 grunt clean-up-my-api --stages="$STAGES"
 ```
 
